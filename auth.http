@@ -1,0 +1,6 @@
+@access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzcxNDg3NjI3LCJpYXQiOjE3NzE0ODQwMjcsImp0aSI6ImJkZWUwZTFmNTU2ZDRmMDdiMDA3YzFkMWE3MGM2N2JmIiwidXNlcl9pZCI6IjEifQ.LBbiphFu8C13MGYLQ-YoSfol6pQi7VJHewOgbpbw6Lk
+
+### users
+GET http://127.0.0.1:8000/auth/users/
+Content-Type: application/json
+Authorization: Bearer {{access_token}}
